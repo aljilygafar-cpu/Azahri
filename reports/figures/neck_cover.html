@@ -1,0 +1,132 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<style>
+body{margin:0;background:#fff;font-family:"DejaVu Sans",sans-serif;color:#1f2933}
+.wrap{width:1360px;padding:24px 28px}
+h1{font-size:30px;margin:0 0 6px} p.sub{font-size:18px;margin:0 0 16px;color:#52606d}
+.row{display:flex;gap:22px}
+.card{border:1px solid #d9dee4;border-radius:12px;padding:12px 14px}
+.cap{font-size:19px;font-weight:bold;margin:2px 0 8px}
+.note{font-size:16px;line-height:1.6;margin-top:6px}
+svg{direction:ltr} svg text{font-family:"DejaVu Sans",sans-serif}
+</style></head><body><div class="wrap">
+<h1>ما هو غطاء حديد الرقبة؟</h1>
+<p class="sub">الغطاء = سماكة الخرسانة بين سطح الرقبة الخارجي وأقرب حديد (الكانة). هو الذي يحمي الحديد من الرطوبة والأملاح.</p>
+<div class="row">
+ <!-- Section comparison -->
+ <div class="card" style="flex:1.15">
+  <div class="cap">١) مقطع أفقي في الرقبة C2 (٣٠ × ٦٠ سم) — ١٢ سيخ ١٦ مم وكانات ٨ مم</div>
+  <svg width="680" height="600" viewBox="0 0 680 600">
+   <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker>
+    <marker id="dm" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#1f2933"/></marker>
+    <pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc3"/><circle cx="3" cy="4" r="1.2" fill="#b89b6a"/><circle cx="8" cy="8" r="1" fill="#b89b6a"/></pattern>
+   </defs>
+   <!-- left: current 25mm ; scale 0.6 px/mm ; section 180x360 -->
+   <g transform="translate(420,90)">
+    <text x="90" y="-48" text-anchor="middle" font-size="18" font-weight="bold" fill="#c0392b">الحالي في المخطط: ٢٥ مم</text>
+    <rect x="-24" y="-24" width="228" height="408" fill="url(#soil)" rx="4"/>
+    <text x="90" y="402" text-anchor="middle" font-size="13" fill="#7b5e2b">تربة / ردم رطب</text>
+    <rect x="0" y="0" width="180" height="360" fill="#cfd4da" stroke="#555" stroke-width="2"/>
+    <!-- stirrup at cover 25mm => 15px, thickness 8mm => 5px -->
+    <rect x="15" y="15" width="150" height="330" fill="none" stroke="#2c3e50" stroke-width="5"/>
+    <!-- bars center offset = (25+8+8)=41mm => 24.6px ; dia 16mm => r 4.8px -->
+    <g fill="#2c3e50">
+     <circle cx="24.6" cy="24.6" r="5"/><circle cx="155.4" cy="24.6" r="5"/>
+     <circle cx="24.6" cy="335.4" r="5"/><circle cx="155.4" cy="335.4" r="5"/>
+     <circle cx="24.6" cy="102" r="5"/><circle cx="24.6" cy="180" r="5"/><circle cx="24.6" cy="258" r="5"/>
+     <circle cx="155.4" cy="102" r="5"/><circle cx="155.4" cy="180" r="5"/><circle cx="155.4" cy="258" r="5"/>
+     <circle cx="90" cy="24.6" r="5"/><circle cx="90" cy="335.4" r="5"/>
+    </g>
+    <!-- cover dim -->
+    <line x1="0" y1="180" x2="12.5" y2="180" stroke="#c0392b" stroke-width="3"/>
+    <text x="-8" y="172" text-anchor="end" font-size="15" fill="#c0392b">٢٫٥ سم فقط</text>
+    <!-- moisture arrows short path -->
+    <line x1="-22" y1="70" x2="12" y2="70" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)"/>
+    <line x1="-22" y1="290" x2="12" y2="290" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)"/>
+    <text x="90" y="455" text-anchor="middle" font-size="14" fill="#c0392b">طريق قصير للرطوبة والأملاح ← صدأ أسرع</text>
+   </g>
+   <!-- right: recommended 50mm ; same outer 300x600 => bars move in -->
+   <g transform="translate(90,90)">
+    <text x="90" y="-48" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e8449">المقترح: ٤٠–٥٠ مم</text>
+    <rect x="-24" y="-24" width="228" height="408" fill="url(#soil)" rx="4"/>
+    <text x="90" y="402" text-anchor="middle" font-size="13" fill="#7b5e2b">تربة / ردم رطب</text>
+    <rect x="0" y="0" width="180" height="360" fill="#cfd4da" stroke="#555" stroke-width="2"/>
+    <!-- stirrup at 50mm => 30px -->
+    <rect x="30" y="30" width="120" height="300" fill="none" stroke="#2c3e50" stroke-width="5"/>
+    <!-- bars center offset = 50+16=66mm => 39.6px -->
+    <g fill="#2c3e50">
+     <circle cx="39.6" cy="39.6" r="5"/><circle cx="140.4" cy="39.6" r="5"/>
+     <circle cx="39.6" cy="320.4" r="5"/><circle cx="140.4" cy="320.4" r="5"/>
+     <circle cx="39.6" cy="110" r="5"/><circle cx="39.6" cy="180" r="5"/><circle cx="39.6" cy="250" r="5"/>
+     <circle cx="140.4" cy="110" r="5"/><circle cx="140.4" cy="180" r="5"/><circle cx="140.4" cy="250" r="5"/>
+     <circle cx="90" cy="39.6" r="5"/><circle cx="90" cy="320.4" r="5"/>
+    </g>
+    <line x1="0" y1="180" x2="27.5" y2="180" stroke="#1e8449" stroke-width="3"/>
+    <text x="-8" y="172" text-anchor="end" font-size="15" fill="#1e8449">٥ سم</text>
+    <line x1="-22" y1="70" x2="22" y2="70" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)" stroke-dasharray="6 4"/>
+    <text x="90" y="455" text-anchor="middle" font-size="14" fill="#1e8449">طريق أطول ← الحديد محمي سنين أكثر</text>
+   </g>
+   <text x="340" y="585" text-anchor="middle" font-size="13" fill="#52606d">الرسم بمقياس تقريبي. الغطاء يُقاس إلى الكانة (الحديد الخارجي) وليس إلى الأسياخ الطولية.</text>
+  </svg>
+ </div>
+ <!-- Elevation -->
+ <div class="card" style="flex:1">
+  <div class="cap">٢) قطاع رأسي: لماذا يُقرر الآن قبل صب القاعدة؟</div>
+  <svg width="600" height="540" viewBox="0 0 600 540">
+   <defs>
+    <pattern id="soil2" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc3"/><circle cx="3" cy="4" r="1.2" fill="#b89b6a"/><circle cx="8" cy="8" r="1" fill="#b89b6a"/></pattern>
+    <pattern id="fill" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#f2e6c9"/><circle cx="4" cy="4" r="1.4" fill="#c9a861"/></pattern>
+    <marker id="ar2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker>
+    <marker id="bl" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1f4e79"/></marker>
+   </defs>
+   <!-- ground -->
+   <rect x="0" y="120" width="600" height="420" fill="url(#soil2)"/>
+   <line x1="0" y1="120" x2="600" y2="120" stroke="#7b5e2b" stroke-width="2"/>
+   <text x="590" y="112" text-anchor="end" font-size="14" fill="#7b5e2b">منسوب الأرض ±٠٫٠٠</text>
+   <!-- slab/edge beam -->
+   <rect x="60" y="50" width="440" height="22" fill="#aeb6bf" stroke="#555"/>
+   <text x="280" y="44" text-anchor="middle" font-size="14">البلاطة المعلقة (أرضية الأرضي)</text>
+   <!-- neck -->
+   <rect x="250" y="72" width="60" height="318" fill="#cfd4da" stroke="#555" stroke-width="2"/>
+   <!-- vertical bars inside neck -->
+   <line x1="262" y1="72" x2="262" y2="440" stroke="#2c3e50" stroke-width="4"/>
+   <line x1="298" y1="72" x2="298" y2="440" stroke="#2c3e50" stroke-width="4"/>
+   <!-- starter bars hooks in footing -->
+   <path d="M262 440 L230 440" stroke="#2c3e50" stroke-width="4" fill="none"/>
+   <path d="M298 440 L330 440" stroke="#2c3e50" stroke-width="4" fill="none"/>
+   <!-- stirrups -->
+   <g stroke="#2c3e50" stroke-width="2"><line x1="258" y1="110" x2="302" y2="110"/><line x1="258" y1="150" x2="302" y2="150"/><line x1="258" y1="190" x2="302" y2="190"/><line x1="258" y1="230" x2="302" y2="230"/><line x1="258" y1="270" x2="302" y2="270"/><line x1="258" y1="310" x2="302" y2="310"/><line x1="258" y1="350" x2="302" y2="350"/></g>
+   <!-- membrane band + coating -->
+   <rect x="244" y="330" width="6" height="60" fill="#111"/><rect x="310" y="330" width="6" height="60" fill="#111"/>
+   <rect x="245" y="130" width="4" height="200" fill="#4a4a4a" opacity=".7"/><rect x="311" y="130" width="4" height="200" fill="#4a4a4a" opacity=".7"/>
+   <!-- footing -->
+   <rect x="90" y="390" width="380" height="70" fill="#cfd4da" stroke="#555" stroke-width="2"/>
+   <line x1="100" y1="450" x2="460" y2="450" stroke="#2c3e50" stroke-width="4"/>
+   <!-- PCC -->
+   <rect x="70" y="460" width="420" height="14" fill="#b9bfc6" stroke="#555"/>
+   <!-- replacement -->
+   <rect x="90" y="474" width="380" height="40" fill="url(#fill)" stroke="#a88b4a"/>
+   <text x="280" y="500" text-anchor="middle" font-size="13">الإحلال ٥٠ سم</text>
+   <text x="280" y="430" text-anchor="middle" font-size="14">القاعدة ٦٠ سم</text>
+   <!-- moisture arrows -->
+   <line x1="150" y1="250" x2="240" y2="250" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar2)"/>
+   <line x1="390" y1="250" x2="320" y2="250" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar2)"/>
+   <text x="235" y="240" text-anchor="end" font-size="13" fill="#c0392b">رطوبة وأملاح</text>
+   <!-- callouts -->
+   <line x1="332" y1="440" x2="395" y2="372" stroke="#1f4e79" stroke-width="1.5"/>
+   <text font-size="13" fill="#1f4e79"><tspan x="400" y="362" text-anchor="start">الأشاير تُثبت داخل القاعدة عند</tspan><tspan x="400" y="380" text-anchor="start">الصب ← موضعها يحدد الغطاء،</tspan><tspan x="400" y="398" text-anchor="start">ولا يمكن تغييره بعد الصب</tspan></text>
+   <line x1="318" y1="360" x2="395" y2="300" stroke="#1f4e79" stroke-width="1.5"/>
+   <text font-size="13" fill="#1f4e79"><tspan x="400" y="304" text-anchor="start">شريط ممبرين أسفل الرقبة</tspan></text>
+   <line x1="318" y1="200" x2="395" y2="186" stroke="#1f4e79" stroke-width="1.5"/>
+   <text font-size="13" fill="#1f4e79"><tspan x="400" y="190" text-anchor="start">دهان بيتوميني (ARACO)</tspan></text>
+   <text font-size="13" fill="#1f4e79"><tspan x="238" y="160" text-anchor="end">الرقبة مدفونة</tspan><tspan x="238" y="178" text-anchor="end">حوالي ١٫٤ م</tspan></text>
+   <text x="280" y="532" text-anchor="middle" font-size="12" fill="#52606d">رسم توضيحي غير مقيس</text>
+  </svg>
+ </div>
+</div>
+<div class="card note" style="margin-top:14px">
+<b>الخلاصة:</b> المخطط يعطي الرقاب غطاء ٢٥ مم (Other Cover). الرقاب مدفونة في تربة رطبة قد تحتوي أملاحًا، والمعتاد للعناصر المدفونة ٤٠–٥٠ مم.
+العزل (KIM والممبرين والدهان) طبقات حماية إضافية، لكنه لا يغني عن الغطاء: إذا خُدش العزل يبقى الغطاء آخر خط دفاع.
+والقرار يجب أن يُتخذ <b>قبل صب القاعدة</b> لأن الأشاير المثبتة فيها تحدد موضع حديد الرقبة.
+</div>
+</div></body></html>
